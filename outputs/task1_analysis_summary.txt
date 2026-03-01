@@ -1,0 +1,20 @@
+TASK 1: DIMENSIONALITY REDUCTION ANALYSIS SUMMARY
+============================================================
+
+Date: 2026-03-01 09:03:00
+Total Stations: 99
+Industrial Stations: 70
+Residential Stations: 29
+
+PC1 Variance: 33.1%
+PC2 Variance: 21.1%
+Total Variance: 54.2%
+
+Loadings Matrix:
+                  PC1       PC2
+pm25        -0.266841  0.708909
+pm10         0.262699  0.397276
+no2          0.540018  0.244835
+o3           0.546357  0.313189
+temperature -0.472652  0.410811
+humidity    -0.215081  0.113239

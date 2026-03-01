@@ -1,0 +1,64 @@
+
+===============================================================================
+VISUAL INTEGRITY AUDIT REPORT
+===============================================================================
+
+PROPOSAL EVALUATION: 3D Bar Chart for Pollution vs Population Density vs Region
+-------------------------------------------------------------------------------
+
+1. LIE FACTOR ANALYSIS
+   • Calculated Lie Factor: 1.33
+   • Acceptable range: 0.95 - 1.05
+   • Verdict: FAIL - Distorts truth
+
+2. DATA-INK RATIO ANALYSIS
+   • Calculated Data-Ink Ratio: 0.60
+   • Target: >0.8
+   • Verdict: FAIL - Too much non-data ink (3D effects, shadows)
+
+3. OTHER ISSUES IDENTIFIED
+   • Occlusion: Front bars hide back bars
+   • Population density dimension is lost
+   • Perspective makes height comparison unreliable
+   • Hard to compare Industrial vs Residential zones
+
+-------------------------------------------------------------------------------
+DECISION: REJECT the 3D bar chart proposal
+-------------------------------------------------------------------------------
+
+RECOMMENDED ALTERNATIVE: Bivariate Scatter Plot
+-------------------------------------------------------------------------------
+The alternative visualization shows all three variables clearly:
+• X-axis: Population Density
+• Y-axis: PM2.5 Pollution  
+• Color: Region (Industrial/Residential)
+
+Benefits:
+• Lie Factor = 1.0 (no distortion)
+• High Data-Ink Ratio (>0.9)
+• All data points visible simultaneously
+• Trend lines show relationship
+• Easy region comparison
+
+COLOR SCALE JUSTIFICATION
+-------------------------------------------------------------------------------
+The alternative uses a sequential color scheme (red/blue):
+
+✅ SEQUENTIAL SCALE (Chosen):
+   • Clear perceptual order
+   • Consistent luminance
+   • Colorblind-friendly (red/blue distinguishable)
+   • No false patterns introduced
+
+❌ RAINBOW SCALE (Rejected):
+   • No perceptual order (which is higher: yellow or green?)
+   • Uneven luminance creates false patterns
+   • Problematic for colorblind viewers
+   • Creates artificial boundaries
+
+The chosen colors (red=Industrial, blue=Residential) provide:
+• Immediate categorical distinction
+• Good contrast for all viewers
+• Consistent with common conventions (red = warning/higher pollution)
+
+===============================================================================
